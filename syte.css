@@ -23,6 +23,7 @@
   justify-content: center;
   margin-top: 30px;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .avatar-vaz-wrapper:hover {
@@ -42,4 +43,53 @@
 
 .ico-sm:hover {
   color: #3b5998;
+}
+
+.myphotos {
+  width: 1000px;
+  float: left;
+}
+
+.hidden {
+  display: none;
+}
+
+#photos {
+  position: absolute;
+  z-index: 20;
+  min-height: 100%;
+  opacity: 1;
+  min-width: 6000px;
+}
+
+.krestik {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 25px;
+  height: 25px;
+  opacity: 0.3;
+  z-index: 30;
+  cursor: pointer;
+}
+
+.krestik:hover {
+  opacity: 1;
+}
+
+.krestik:before, .krestik:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+
+.krestik:before {
+  transform: rotate(45deg);
+}
+
+.krestik:after {
+  transform: rotate(-45deg);
 }
