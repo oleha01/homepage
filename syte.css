@@ -1,0 +1,20 @@
+.vaz-card {
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+  min-height: 120px;
+}
+
+.vaz-img {
+  float: left;
+  margin-right: 10px;
+  height: 100px;
+}
+
+.avatar-vaz-wrapper {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
