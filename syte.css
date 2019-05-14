@@ -31,13 +31,14 @@
 }
 
 .gif-sm {
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   height: 200px;
   transition: 0.1s;
 }
 
 .gif-sm:hover {
-  margin-left: -220px;
+  margin-left: -150px;
   transform: scale(2);
 }
 
@@ -92,4 +93,8 @@
 
 .krestik:after {
   transform: rotate(-45deg);
+}
+
+.nowrapP {
+  white-space: pre-line;
 }
